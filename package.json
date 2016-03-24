@@ -1,0 +1,47 @@
+{
+  "name": "firebase-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test:watch": "npm test -- --watch",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^2.3.2",
+    "immutable": "^3.7.6",
+    "jquery": "^2.2.0",
+    "path": "^0.12.7",
+    "react": "^0.14.6",
+    "react-dnd": "^2.0.2",
+    "react-dnd-html5-backend": "^2.0.2",
+    "react-dom": "^0.14.6",
+    "react-motion": "^0.4.2",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
+    "redux-logger": "^2.5.0",
+    "redux-thunk": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "bootstrap": "^3.3.6",
+    "bootstrap-wysiwyg": "^1.0.4",
+    "expect.js": "^0.3.1",
+    "jquery": "^2.2.2",
+    "jquery.hotkeys": "^0.1.0",
+    "mocha": "^2.4.5",
+    "react-bootstrap": "^0.28.3",
+    "react-hot-loader": "^1.3.0",
+    "redux-devtools": "^3.0.1",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
